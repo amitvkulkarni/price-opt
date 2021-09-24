@@ -15,10 +15,11 @@ import dash_daq as daq
 
 group_colors = {"control": "light blue", "reference": "red"}
 
-app = dash.Dash(
-    __name__, meta_tags=[
-        {"name": "viewport", "content": "width=device-width"}],
-)
+# app = dash.Dash(
+#     __name__, meta_tags=[
+#         {"name": "viewport", "content": "width=device-width"}],
+# )
+app = dash.Dash(__name__)
 
 server = app.server
 
