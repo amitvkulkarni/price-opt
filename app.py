@@ -2,7 +2,7 @@ import dash
 import pandas as pd
 import numpy as np
 import dash_table
-import logging
+# import logging
 import plotly.graph_objs as go
 import plotly.express as px
 import dash_core_components as dcc
@@ -323,7 +323,8 @@ def update_output_All(var_opt, var_range, var_cost):
     
     
     except Exception as e:
-        logging.exception('Something went wrong with interaction logic:', e)
+        #logging.exception('Something went wrong with interaction logic:', e)
+        pass
 
 
 if __name__ == "__main__":
