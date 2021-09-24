@@ -2,7 +2,7 @@ dash
 pandas
 numpy
 dash_table
-logging
+# logging
 plotly.express
 dash_core_components
 dash_html_components
